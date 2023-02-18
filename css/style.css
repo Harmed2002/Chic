@@ -140,20 +140,32 @@ li:hover{
 
 
 /* DISEÑO PARA DIFERENTES DISPOSITIVOS */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 	.contenedor-flex img {
+		width: 30%;
+	}
+
+	.container img {
 		width: 30%;
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
 	.contenedor-flex img {
+		width: 50%;
+	}
+
+	.container img {
 		width: 50%;
 	}
 }
 
 @media screen and (max-width: 369px) {
 	.contenedor-flex img {
+		width: 95%;
+	}
+
+	.container img {
 		width: 95%;
 	}
 }

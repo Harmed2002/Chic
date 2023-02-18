@@ -32,7 +32,7 @@ p {
 .navBackground {
 	background-color: rgb(0, 0, 0);
 	height: 100px;
-	top: 0px;
+	top: 10px;
 }
 
 .navBackground__menuPpal {

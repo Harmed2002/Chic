@@ -25,6 +25,7 @@ a {
 
 p {
 	font-size: 2rem;
+	color: white;
 }
 
 
@@ -106,6 +107,7 @@ li:hover{
 	background-color: rgb(39,40,45);
 	flex-grow: 2;
 }
+
 
 /* CONTENIDO DESTACADO */
 .contenedor-flex {
@@ -284,6 +286,33 @@ li:hover{
 
 .txtBuscar {
 	width: 90px;
+}
+
+
+/* CONTACTO */
+.formulario {
+	padding-top: 20px;
+	background-color: rgb(39,40,45);
+	width: 30%;
+	margin: auto;
+	color: white;
+	/*display: inline;*/
+}
+
+.form-label {
+	font-size: large;
+}
+
+.form-text {
+	color: white;
+}
+
+
+/* CARRITO */
+.datos {
+	width: 50%;
+	margin: auto;
+	/*color: white;*/
 }
 
  

@@ -100,7 +100,7 @@ li:hover{
 .contenido__banner {
 	width: 100%;
 	height: 150px;
-	background-image: url("../assets/img/PortadaOne.jpg");
+	background-image: url("../assets/img/portadabanner.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-color: rgb(39,40,45);

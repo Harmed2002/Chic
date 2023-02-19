@@ -9,6 +9,7 @@
 		<title>Chic-Contacto</title>
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
+
 	<body>
 		<header class="navBackground">
 			<img src="../assets/img/logoapp.png" alt="logo sitio">
@@ -40,23 +41,27 @@
 			<section class="formulario">
 				<h1>CONTACTO</h1>
 				<form action="#">
-					<div class="mb-3">
-						<label for="exampleInputEmail1" class="form-label">Email</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-						<div id="emailHelp" class="form-text">Nosotros nunca compartiremos tus datos con nadie</div>
-						
-						<label for="nombre" class="form-label">Nombre</label>
-						<input type="text" name="nombre" class="form-control" id="nombre" placeholder="Digita tu nombre"><br>
+					<div class="row">
+						<div class="col-12 col-sm-6 mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">Nosotros nunca compartiremos tus datos con nadie</div>
 
-						<label for="apellido" class="form-label">Apellidos</label>
-						<input type="text" name="apellido" class="form-control" id="apellido" placeholder="Digita tus apellidos"><br>
+							<label for="nombre" class="form-label">Nombre</label>
+							<input type="text" name="nombre" class="form-control" id="nombre" placeholder="Digita tu nombre"><br>
 
-						<label for="obs" class="form-label">Comentarios</label>
-						<textarea name="obs" id="obs" cols="60" rows="10" class="form-control" placeholder="Comentarios"></textarea><br>
+							<label for="apellido" class="form-label">Apellidos</label>
+							<input type="text" name="apellido" class="form-control" id="apellido" placeholder="Digita tus apellidos"><br>
+
+							<label for="obs" class="form-label">Comentarios</label>
+							<textarea name="obs" id="obs" cols="60" rows="10" class="form-control" placeholder="Comentarios"></textarea><br>
+							<button type="submit" class="btn btn-primary">Enviar</button>
+						</div>
+						<div class="col-12 col-sm-6 mb-3">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62667.562059969605!2d-74.81789419082986!3d10.984296347041854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d44d12ae605%3A0x2633844581b917b2!2sBarranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1676705443213!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
 					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62667.562059969605!2d-74.81789419082986!3d10.984296347041854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d44d12ae605%3A0x2633844581b917b2!2sBarranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1676705443213!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</form>				
 			</section>
 		</main>
 

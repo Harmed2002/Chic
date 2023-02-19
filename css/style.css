@@ -293,8 +293,8 @@ li:hover{
 .formulario {
 	padding-top: 20px;
 	background-color: rgb(39,40,45);
-	width: 30%;
-	margin: auto;
+	width: 50%;
+	/*margin: auto;*/
 	color: white;
 	/*display: inline;*/
 }

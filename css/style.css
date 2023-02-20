@@ -101,6 +101,8 @@ li {
     border: 2px solid #333;
     box-shadow: 0 0 0 2px white;
     flex: auto; }
+    .contenedor-flex img:hover {
+      filter: opacity(0.5); }
 
 .contenido_destacado_section {
   background-color: black;
@@ -150,6 +152,8 @@ li {
 
 .gallery__item {
   position: relative; }
+  .gallery__item:hover {
+    filter: opacity(0.5); }
 
 .gallery__item:nth-child(6) {
   grid-row-start: span 2; }

@@ -125,6 +125,10 @@ li {
         border: 2px solid #333;
         box-shadow: 0 0 0 2px white;
         flex: auto;
+
+		&:hover {
+			filter: opacity(.5);
+		}
     }
 }
 
@@ -197,6 +201,10 @@ li {
 
 .gallery__item {
 	position: relative;
+	
+	&:hover {
+		filter: opacity(.5);
+	}
 }
 
 .gallery__item:nth-child(6) {

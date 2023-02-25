@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .footer-flex {
   position: relative;
   bottom: 0;
@@ -46,6 +45,61 @@
       #nav_menu li a:hover {
         color: white;
         border-radius: 50%; }
+
+.contenido {
+  position: relative;
+  min-height: 72%;
+  background-color: black; }
+
+.contenido_section {
+  padding: 1%;
+  background-color: #27282d; }
+
+.contenido-flex {
+  background-color: #b7af16;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.contenido__title {
+  background-color: #27282d;
+  flex-grow: 1; }
+  .contenido__title h1 {
+    font-size: 40px;
+    color: #FB905C; }
+  .contenido__title h3 {
+    font-size: 20px; }
+
+.contenido__banner {
+  width: 100%;
+  height: 150px;
+  background-image: url("../assets/img/portadabanner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #27282d;
+  flex-grow: 2; }
+
+@media screen and (max-width: 768px) {
+  .contenedor-flex img {
+    width: 30%; }
+  .container {
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    padding-left: 2px;
+    margin: 0%; }
+    .container img {
+      width: 30%; } }
+
+@media screen and (max-width: 480px) {
+  .contenedor-flex img {
+    width: 50%; }
+  .container {
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    padding-left: 2px;
+    margin: 0%; }
+    .container img {
+      width: 50%; } }
 
 * {
   margin: 0;
@@ -95,40 +149,6 @@ li {
     background-color: #fb905c;
     border-radius: 5%; }
 
-/* CONTENIDO BANNER */
-.contenido {
-  position: relative;
-  min-height: 72%;
-  background-color: black; }
-
-.contenido_section {
-  padding: 1%;
-  background-color: #27282d; }
-
-.contenido-flex {
-  background-color: #b7af16;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start; }
-
-.contenido__title {
-  background-color: #27282d;
-  flex-grow: 1; }
-  .contenido__title h1 {
-    font-size: 40px;
-    color: #FB905C; }
-  .contenido__title h3 {
-    font-size: 20px; }
-
-.contenido__banner {
-  width: 100%;
-  height: 150px;
-  background-image: url("../assets/img/portadabanner.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-color: #27282d;
-  flex-grow: 2; }
-
 /* CONTENIDO DESTACADO */
 .contenedor-flex {
   width: 100%;
@@ -155,32 +175,6 @@ li {
     font-size: 1.5rem;
     padding-left: 10px;
     padding-top: 20px; }
-
-/* DISEÑO PARA DIFERENTES DISPOSITIVOS */
-@media screen and (max-width: 768px) {
-  .contenedor-flex img {
-    width: 30%; }
-  .container {
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    /*grid-auto-rows: 50px;*/
-    padding-left: 2px;
-    margin: 0%;
-    /*margin-left: 5px;*/ }
-    .container img {
-      width: 30%; } }
-
-@media screen and (max-width: 480px) {
-  .contenedor-flex img {
-    width: 50%; }
-  .container {
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
-    /*grid-auto-rows: 50px;*/
-    padding-left: 2px;
-    margin: 0%; }
-    .container img {
-      width: 50%; } }
 
 /* CONTENIDO PRODUCTOS */
 .contenido__productos {
@@ -301,7 +295,6 @@ li {
   margin: auto;
   /*color: white;*/ }
 
-/* FOOTER */
 /* ICONOS SOCIALES */
 .fa-youtube {
   background: #cb2027;

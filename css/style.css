@@ -265,11 +265,13 @@ li {
 /* CONTACTO */
 .formulario {
   padding-top: 20px;
+  padding-left: 15px;
   background-color: #27282d;
   width: 50%;
   /*margin: auto;*/
   color: white;
-  /*display: inline;*/ }
+  /*display: inline;*/
+  align-items: center; }
 
 .form-label {
   font-size: large; }
@@ -281,7 +283,7 @@ li {
 .carrito {
   margin-top: 1%;
   padding: 10px;
-  height: 180px;
+  height: 250px;
   background-color: #27282d; }
 
 .datosCarrito {
